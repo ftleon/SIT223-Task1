@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Description: Compiles and packages the code.'
-                echo 'Tool: Maven'
+                echo 'Tool: Maven Test video'
             }
         }
         stage('Unit and Integration Tests') {
